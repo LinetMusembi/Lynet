@@ -1,0 +1,241 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #ced4da;
+}
+.am{
+    color: dodgerblue;
+}
+.sidebar{
+    background-color: rgb(240, 234, 234); 
+    height: 90vh;
+}
+.sidebar nav{
+    padding: 72px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 80vw;
+    height: 80vh;
+
+}
+.container{
+    display: flex;
+  
+}
+
+
+.infoContainer{
+    /* background-color: rgb(202, 9, 128);  */
+    height: 30vw;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-top: -0%;
+
+}
+.devPic img{
+    height: 70vh;
+    width: 80vh;
+    margin-top: -5%;
+   
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hello{
+    font-size: 20px;
+
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+}
+.about{
+    font-size: 40px;
+}
+.moreabout{
+    font-size: 22px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    border: none;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.btn-sm{
+    font-size: 20px;
+}
+.contactform {
+    padding-top: 144px;
+    padding: 0 34px;
+}
+.contactform h1{
+    padding: 12px 0;
+    
+
+    
+    
+
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 20px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogItem{
+    margin: 30px;
+
+}
+.blogcontainer h1{
+    margin: 30px;   
+}
+.h1{
+    margin: 30px;   
+}
+.blogItem p{
+    
+}
+.intro h2{
+    margin:30px ;
+    text-align: center;
+
+
+}
+.intro p{
+    margin: 12px;
+    font-size: x-large;
+
+}
+.skillcontainer{
+    padding: 12px;
+
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  font-size: x-large;
+}
+.hundered{
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 265px ;
+    background-color: aqua;
+}
+.t5{
+    width: 265px ;
+    background-color: yellow;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+} 
+.hambuger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 184px;
+
+}
+@media (max-width: 1615px) { 
+    *{ 
+    background-color: rgb(253, 243, 243);
+    }
+    /* .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }  */
+
+
+}
+.container1{
+    margin-left: 50%;
+    margin-top: -40%;
+    font-size: x-large;
+ 
+}
+
+
+
